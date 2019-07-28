@@ -1,0 +1,10 @@
+.container{
+	display:flex;
+	border :1px solid black;
+	flex-direction: row;
+	justify-content: space-between;
+	/*justify-content: space-around;*/
+	/*justify-content: flex-start;*/
+	/*justify-content: flex-end;*/
+	/*justify-content: center;*/
+}
