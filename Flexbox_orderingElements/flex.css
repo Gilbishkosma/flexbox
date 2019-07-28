@@ -1,0 +1,21 @@
+.container{
+	display: flex;
+	border : 2px solid black;
+	width:700px;
+
+}
+
+.one{
+	order: -2;
+	/*minimum order is at start and max is at end*/
+	/*By default every element's oreder is 0*/
+}
+
+.two{
+	order: -1;
+}
+
+
+.container div:nth-child(6){
+	order:-3;
+}
